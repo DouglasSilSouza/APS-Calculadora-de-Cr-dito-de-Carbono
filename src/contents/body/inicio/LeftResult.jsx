@@ -54,7 +54,7 @@ function LeftResult() {
             <h4>Atualmente você emitiu</h4>
             <p>
               {" "}
-              <b>{formatNumber(n)}</b> Toneladas de CO2
+              <b>{formatNumber(n)}</b> Toneladas de CO2 anualmente
             </p>
 
             <h4>Quantidade de Mudas necessárias:</h4>

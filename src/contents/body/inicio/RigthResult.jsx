@@ -55,35 +55,35 @@ function RigthResult() {
             <p style={stylesP}>
               Com <b>{legenda(dados.selectedAutomovel)}</b> usando combustível{" "}
               {legenda(dados.consumoAutomovel)} você consumiu <b>{dados.inputConsumo}</b> Km, emitindo{" "}
-              <b>{emissaoAutomovel.toFixed(2)}</b> KG de CO2
+              <b>{emissaoAutomovel.toFixed(2)}</b> KG de CO2 anualmente.
             </p>
           )}
 
           {dados.consumokwheletrico && (
             <p style={stylesP}>
               Com <b>{dados.consumokwheletrico}</b> kWh de luz você emitiu{" "}
-              <b>{emissaoEletricidade.toFixed(2)}</b> KG de CO2
+              <b>{emissaoEletricidade.toFixed(2)}</b> KG de CO2 anualmente.
             </p>
           )}
 
           {dados.consumoglp && (
             <p style={stylesP}>
               Com <b>{dados.consumoglp}</b> Litro(s) de gás de cozinha você emitiu{" "}
-              <b>{emissaoGLP.toFixed(2)}</b> KG de CO2
+              <b>{emissaoGLP.toFixed(2)}</b> KG de CO2 anualmente.
             </p>
           )}
 
           {dados.nacional && (
             <p style={stylesP}>
-              Com <b>{dados.nacional}</b> viagens nacionais você emitiu{" "}
-              <b>{emissaoViagensNacionais.toFixed(2)}</b> KG CO2
+              Com <b>{dados.nacional}</b> Trecho de viagens nacionais você emitiu{" "}
+              <b>{emissaoViagensNacionais.toFixed(2)}</b> KG de CO2.
             </p>
           )}
 
           {dados.internacional && (
             <p style={stylesP}>
-              Com <b>{dados.internacional}</b> viagens internacionais você emitiu{" "}
-              <b>{emissaoViagensInternacionais.toFixed(2)}</b> KG CO2
+              Com <b>{dados.internacional}</b> Trecho de viagens internacionais você emitiu{" "}
+              <b>{emissaoViagensInternacionais.toFixed(2)}</b> KG de CO2.
             </p>
           )}
       </section>

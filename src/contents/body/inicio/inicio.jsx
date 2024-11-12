@@ -70,8 +70,8 @@ function Inicio() {
       >
           {currentStep !== 3 && (
               <>
-                <p className="fs-2">Realize os cálculos abaixo</p>
-                <p className="mb-0">Insira abaixo as informações afim de serem calculadas:</p>
+                <p className="fs-3 fw-bold">Realize os cálculos abaixo</p>
+                <p className="mb-0">Os cálculos abaixo são sugestivos e baseados em médias de cálculos científicos</p>
               </>
             )}
           {currentStep == 2 && emptyData() && 
@@ -148,6 +148,7 @@ function Inicio() {
               )}
             </div>
           </form>
+          <p className="text-break m-auto mt-5 container-sm" style={{fontSize: '1.5rem', fontWeight: '400', backgroundColor: "#d6eed7", borderRadius: "10px", padding: "15px"}}>Você sabia que dá para saber quantas árvores precisamos plantar para compensar o CO2 que soltamos em um ano? Para isso, criamos a Calculadora de CO2. É bem fácil de usar e qualquer pessoa pode preencher. Com ela, você descobre quanto de CO2 você emite por ano e pode compensar essa emissão plantando árvores da Mata Atlântica.</p>
       </div>
     </>
   );

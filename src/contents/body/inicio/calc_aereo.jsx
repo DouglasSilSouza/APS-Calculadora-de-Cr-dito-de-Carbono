@@ -67,6 +67,8 @@ function Calc_aereo({ data, updateFieldHandler }) {
               </div>
             </div>
           </div>
+              <p>Nacionais: Utilizando como padrão 1.600km (ida e volta) ou seja, 800km cada trecho. <br/>
+              Internacionais: Utilizando como padrão 20.000km (ida e volta), ou seja, 10.000km cada trecho.</p>
         </div>
       </section>
     </>

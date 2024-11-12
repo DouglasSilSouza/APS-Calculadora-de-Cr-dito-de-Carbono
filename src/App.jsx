@@ -1,14 +1,15 @@
 import './App.css'
-import Inicio from './contents/body/inicio/inicio'
-import Header from './contents/header/Header'
+
+import { Outlet } from 'react-router-dom'
+
+import NavBar from './contents/header/navBar';
 
 function App() {
 
   return (
     <>
-      <Header />
-      <Inicio />
-
+    <NavBar />
+    <Outlet />
     </>
   )
 }
